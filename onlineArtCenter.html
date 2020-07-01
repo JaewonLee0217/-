@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width", initial-scale="1">
+		<title>재원 미술관</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/JaewonArtCenter.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="mainArtCenter.html">재원 미술관</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="introForm.html">소개<span class="sr-only"></span></a></li>
+						<li><a href="programEx.html">프로그램</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">온라인미술관<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="onlineArtCenter.html?onlineArtCenterName=Current">현재 전시</a></li>
+								<li><a href="onlineArtCenter.html?onlineArtCenterName=Past">과거 전시</a></li>
+								<li><a href="onlineArtCenter.html?onlineArtCenterName=Futrue">전시 예정</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="내용을 입력하세요.">
+						</div>
+						<button type="submit" class="btn btn-default">검색</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">로그인<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="loginForm.html">로그인</a></li>
+								<li><a href="registerForm.html">회원가입</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<ul class="list-group">
+					<a href="#" class="list-group-item active">빈센트 반 고흐</a>
+					<a href="#" class="list-group-item">구스타프 클림트</a>
+					<a href="#" class="list-group-item">레오나르도 다빈치</a>
+					<a href="#" class="list-group-item">신윤복</a>
+				</ul>
+			</div>
+			<div class="row">
+					<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PHE7aZsOEkE"></iframe>
+					</div>
+			</div>
+			<hr>
+			<div class="row">
+					<p>
+							빈센트 반 고흐 작품
+					</p>
+					<pre class="pre-scrollable">
+						<p>*간략설명*</p><br>
+네델란드 화가로 살아생전 단 한 점의 그림만이 팔린 비운의 화가로 유명합니다<br>
+'별이 빛나는 밤'은 고흐가 그 삶의 마지막 1년, 정신병과 싸우며 그린 작품이고, 간혹 일어나던 발작 사이에 그린 작품입니다<br>
+'아를르의 포룸 광장의 카페 테라스'는 검은색을 전혀 사용하지 않고 <br>
+아름다운 파란색과 보라색, 초록색, 그리고 밤 배경의 광장은 밝은 노란색을 사용한 그림입니다<br>
+이 그림을 그리던 무렵엔 밤 중에 작업하기를 즐겼다고 하네요~<br>
+					</pre>
+			</div>
+		</div>
+		<div class="container">
+				<hr>
+				<form class="form-horizontal">
+						<div class="form-group">
+								<label>Comment: </label>
+								<textarea class="form-control" rows="5" id="commentContent" name="commentContent"></textarea>
+								<br>
+								<button type="submit" class="btn pull-right">Submit</button>
+						</div>
+				</form>
+				<hr>
+		</div>
+		<footer style="background-color: #9966ff; color: #ffffff">
+			<div class="container">
+				<br>
+				<div class="row">
+					<div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2020</h5><h5>이재원(Jaewon Lee)</h5></div>
+					<div class="col-sm-4"><h4>미술관장대표</h4><p>저는 미술관대표입니다. 전시 사항이나 문의 사항은 개인 연락주시기 바랍니다.</p></div>
+					<div class="col-sm-2"><h4 style="text-align: center;">내비게이션</h4>
+						<div class="list-group">
+							<a href="introForm.html" class="list-group-item">소개</a>
+							<a href="programEx.html" class="list-group-item">프로그램</a>
+							<a href="onlineArtCenter.html" class="list-group-item">온라인미술관</a>
+						</div>
+					</div>
+					<div class="col-sm-2"><h4 style="text-align: center;">SNS</h4>
+						<div class="list-group">
+							<a href="https://www.facebook.com/profile.php?id=100006712292369" class="list-group-item">페이스북</a>
+							<a href="https://www.youtube.com/channel/UCw-HkbYTzt4cNbzWIV2ECtQ" class="list-group-item">유튜브</a>
+							<a href="http://www.instagram.com/loanl_jw" class="list-group-item">인스타그램</a>
+						</div>
+					</div>
+					<div class="col-sm-2"><h4 style="text-align: center;"><span class="glyphicon glyphicon-ok"></span>&nbsp;by 이재원</h4></div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>

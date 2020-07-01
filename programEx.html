@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width", initial-scale="1">
+		<title>재원 미술관</title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/JaewonArtCenter.css">
+	</head>
+	<body>
+		<style type="text/css">
+			blockquote {
+				background: #f9f9f9;
+				border-left: 10px solid #cccccc;
+				margin: 1.5em 10px;
+				padding: 0.5em 10px;
+				quotes: "\201C""\201D""\2018""\2019";
+			}
+			blockquote:before {
+				color: #cccccc;
+				content: open-quote;
+				font-size: 3em;
+				line-height: 0.1em;
+				margin-left: 0.25em;
+				vertical-align: -0.4em;
+			}
+			blockquote:after {
+				color: #cccccc;
+				content: close-quote;
+				font-size: 3em;
+				line-height: 0.1em;
+				margin-left: 0.25em;
+				vertical-align: -0.4em;
+			}
+		</style>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="mainArtCenter.html">재원 미술관</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="introForm.html">소개<span class="sr-only"></span></a></li>
+						<li><a href="programEx.html">프로그램</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">온라인미술관<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="onlineArtCenter.html?onlineArtCenterName=Current">현재 전시</a></li>
+								<li><a href="onlineArtCenter.html?onlineArtCenterName=Past">과거 전시</a></li>
+								<li><a href="onlineArtCenter.html?onlineArtCenterName=Future">전시 예정</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="내용을 입력하세요.">
+						</div>
+						<button type="submit" class="btn btn-default">검색</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+								aria-haspopup="true" aria-expanded="false">로그인<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="loginForm.html">로그인</a></li>
+								<li><a href="registerForm.html">회원가입</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title">
+								<span class="glyphicon glyphicon-tags"></span>
+								&nbsp;&nbsp;프로그램 안내
+							</h3>
+						</div>
+						<div class="panel-body">
+							<div class="media">
+								
+								<div class="media-body">
+									<br>
+										다양한 전시, 필림앤비디오, 다윈예술, 이벤트를 소개합니다
+								</div>
+							</div>
+						</div>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>프로그램 목록</th>
+									
+									<th>프로그램 제목</th>
+									<th>프로그램 일정</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>전시</td>
+									
+									<td><a href="onlineArtCenter.html?onlineArtCenterName=Current">낯선 전쟁</a></td>
+									<td>2020-06-25 ~ 2020-09-20</td>
+								</tr>
+								<tr>
+									<td>필림앤비디오</td>
+									
+									<td><a href="onlineArtCenter.html?onlineArtCenterName=Past">2019 아시아 필름 앤 비디오아트 포럼</a></td>
+									<td>2019-10-31 ~ 2019-12-15</td>
+								</tr>
+								<tr>
+									<td>다윈예술</td>
+									
+									<td><a href="onlineArtCenter.html?onlineArtCenterName=Future">재원미술관 다윈예술(THE SQUARE,광장)</a></td>
+									<td>2019-09-20 ~ 2020-02-09</td>
+								</tr>
+								<tr>
+									<td>이벤트</td>
+									
+									<td><a href="onlineArtCenter.html?onlineArtCenterName=Future">회원가입(회원제-멤버십)</a></td>
+									<td>2020-01-15~</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="panel-footer">
+							<blockquote>MMCA 뉴스레터 신청은 개인 문의 주시기 바랍니다.</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer style="background-color: #9966ff; color: #ffffff">
+			<div class="container">
+				<br>
+				<div class="row">
+					<div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy; 2020</h5><h5>이재원(Jaewon Lee)</h5></div>
+					<div class="col-sm-4"><h4>미술관장대표</h4><p>저는 미술관대표입니다. 전시 사항이나 문의 사항은 개인 연락주시기 바랍니다.</p></div>
+					<div class="col-sm-2"><h4 style="text-align: center;">내비게이션</h4>
+						<div class="list-group">
+							<a href="introForm.html" class="list-group-item">소개</a>
+							<a href="programEx.html" class="list-group-item">프로그램</a>
+							<a href="onlineArtCenter.html" class="list-group-item">온라인미술관</a>
+						</div>
+					</div>
+					<div class="col-sm-2"><h4 style="text-align: center;">SNS</h4>
+						<div class="list-group">
+							<a href="https://www.facebook.com/profile.php?id=100006712292369" class="list-group-item">페이스북</a>
+							<a href="https://www.youtube.com/channel/UCw-HkbYTzt4cNbzWIV2ECtQ" class="list-group-item">유튜브</a>
+							<a href="http://www.instagram.com/loanl_jw" class="list-group-item">인스타그램</a>
+						</div>
+					</div>
+					<div class="col-sm-2"><h4 style="text-align: center;"><span class="glyphicon glyphicon-ok"></span>&nbsp;by 이재원</h4></div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
