@@ -1,5 +1,4 @@
-# -
-홈페이지 만들어 보기
+재원 아트 센터 홈페이지
 
 -mainArtCenter.html에 접속😊
 <img src="https://user-images.githubusercontent.com/55820321/86207543-bd6b1480-bba9-11ea-990c-eb1ebc270a28.JPG" width="700" height="370">
