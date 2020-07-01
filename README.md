@@ -5,9 +5,9 @@
 
 위치설명: 각 html구성들은 mainArtCenter.html(재원미술관 메인홈페이지)의 메뉴를 통해 접속하실 수 있습니다.
 
-**mainArtCenter.html = 재원미술관 메인홈페이지\n
+**mainArtCenter.html = 재원미술관 메인홈페이지
 
-introForm.html = 재원 미술관 소개 페이지\n
+introForm.html = 재원 미술관 소개 페이지
 
 programEx.html = 재원 미술관 프로그램 페이지
 
